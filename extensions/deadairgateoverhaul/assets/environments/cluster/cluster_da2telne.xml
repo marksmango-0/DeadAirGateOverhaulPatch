@@ -1,0 +1,156 @@
+<?xml version="1.0"?>
+<diff xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+<replace sel="//components">
+<components>
+
+	<component name="Cluster_DA2TELNE" class="celestialbody">
+		<source geometry="assets\environments\cluster\Cluster_28_data"/>
+		<layers>
+			<layer>
+				<waypoints/>
+				<lights>
+					<omni name="XU Omni01" shadow="0" r="208" g="235" b="255" range="1E+11" shadowrange="1E+11" lighteffect="1" lenseffect="sun_c_28" trigger="1" intensity="1.2">
+						<lightanimations/>
+						<offset>
+							<position x="-3.331664E+08" y="1.342903E+08" z="1.728861E+08"/>
+						</offset>
+					</omni>
+					<ambient name="XU Ambient01" r="42" g="45" b="39" range="1E+11" intensity="0.8">
+						<lightanimations/>
+						<offset>
+							<position x="-2084.206" y="0" z="849795.8"/>
+						</offset>
+					</ambient>
+				</lights>
+			</layer>
+		</layers>
+		<connections>
+			<connection name="container" tags="contents" value="0" optional="0"/>
+			<connection name="position" tags="position" value="1" optional="1"/>
+			<connection name="space" tags="celestialbody">
+				<offset/>
+			</connection>
+			<connection name="Connection01" tags="part  ">
+				<offset/>
+				<parts>
+					<part name="part_c28_bg">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="p1.p1_env_bg_vertexcolor"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="5.188268E+08" y="5.191418E+08" z="5.188268E+08"/>
+							<center x="0" y="0" z="0"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection02" tags="part  ">
+				<offset>
+					<position x="1.226126E+07" y="31.25" z="8100462"/>
+				</offset>
+				<parts>
+					<part name="Background">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="p1.backgroundstars"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="4.744056E+08" y="4.790679E+08" z="4.744057E+08"/>
+							<center x="-21.48438" y="0" z="6.835938"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection03" tags="part  ">
+				<offset>
+					<position x="-4.505474E+07" y="1.728E+07" z="3.220897E+07"/>
+				</offset>
+				<parts>
+					<part name="bigstar01">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="p1.staratlas_additive"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="4.230853E+08" y="3.673687E+08" z="4.082599E+08"/>
+							<center x="7710192" y="-1.133352E+07" z="-1.405478E+07"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection04" tags="part  ">
+				<offset>
+					<position x="2.404505E+07" y="-1.090895E+07" z="1.024188E+07"/>
+				</offset>
+				<parts>
+					<part name="mediumstar68">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="p1.staratlas_additive"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="4.364935E+08" y="3.587526E+08" z="4.44585E+08"/>
+							<center x="910984.4" y="1.521822E+07" z="-9510704"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection05" tags="part  ">
+				<offset>
+					<position x="-7908352" y="1210445" z="-1935563"/>
+				</offset>
+				<parts>
+					<part name="smallstar58">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="p1.staratlas_additive"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="4.582473E+08" y="3.996921E+08" z="4.065008E+08"/>
+							<center x="-7201633" y="4343836" z="-1195344"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection06" tags="part  ">
+				<offset>
+					<position x="4483229" y="1.820547E+07" z="2782000"/>
+				</offset>
+				<parts>
+					<part name="nebula449">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="p1.staratlas_additive"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="4.295378E+08" y="4.196149E+08" z="4.411214E+08"/>
+							<center x="-4915510" y="-6336922" z="-1155391"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+		</connections>
+	</component>
+
+</components>
+</replace>
+</diff>

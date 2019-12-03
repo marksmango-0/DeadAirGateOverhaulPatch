@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<content id="DeadAirGateOverhaulPatch" name="DeadAir Gate Overhaul Patch" description="Updates backgrounds and resources in new sectors" author="marksmango" version="010" date="2019-10-02" save="0" enabled="1">
+	<dependency id="DeadAirGateOverhaul" optional="false" name="DeadAir Gate Overhaul" />
+	<text language="44" name="DeadAir Gate Overhaul Patch" description="Updates backgrounds and resources in new sectors" author="marksmango" />
+</content>

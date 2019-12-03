@@ -1,0 +1,154 @@
+<?xml version="1.0"?>
+<diff xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+<replace sel="//components">
+<components>
+
+	<component name="Cluster_DA2TELS" class="celestialbody">
+		<source geometry="assets\environments\cluster\Cluster_16_data"/>
+		<layers>
+			<layer>
+				<waypoints/>
+				<lights>
+					<omni name="XU Omni01" shadow="0" r="232" g="250" b="255" range="1E+11" shadowrange="1E+11" lighteffect="1" lenseffect="sun_ol" trigger="1" intensity="1">
+						<lightanimations/>
+						<offset>
+							<position x="3.687679E+08" y="1.37292E+08" z="5.965161E+07"/>
+						</offset>
+					</omni>
+					<ambient name="XU Ambient001" r="25" g="25" b="25" range="1E+10" intensity="1">
+						<lightanimations/>
+						<offset>
+							<position x="-5.369722E+07" y="0" z="-1.240087E+07"/>
+						</offset>
+					</ambient>
+				</lights>
+			</layer>
+		</layers>
+		<connections>
+			<connection name="container" tags="contents" value="0"/>
+			<connection name="position" tags="position" value="1"/>
+			<connection name="space" tags="celestialbody">
+				<offset/>
+			</connection>
+			<connection name="Connection001" tags="part  ">
+				<offset/>
+				<parts>
+					<part name="part_c16_bg">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="p1.p1_env_bg_vertexcolor"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="4.96514E+08" y="4.9775E+08" z="4.96514E+08"/>
+							<center x="0" y="0" z="0"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection002" tags="part  ">
+				<offset/>
+				<parts>
+					<part name="part_c16_galaxy_01_02">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="p1.p1_env_galaxy_01"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="1.407535E+08" y="1.146095E+08" z="9.123876E+07"/>
+							<center x="-1.163283E+08" y="2.433322E+08" z="3.243466E+08"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection009" tags="part  ">
+				<offset>
+					<position x="-1.70448E+07" y="2.92123E+07" z="9636516"/>
+				</offset>
+				<parts>
+					<part name="mediumstar108">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="p1.staratlas_additive"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="3.444734E+08" y="3.150088E+08" z="3.37192E+08"/>
+							<center x="-6996453" y="-2.906622E+07" z="-2.624072E+07"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection010" tags="part  ">
+				<offset>
+					<position x="1.521267E+07" y="-2.982833E+07" z="-1.567284E+07"/>
+				</offset>
+				<parts>
+					<part name="smallstar022">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="p1.staratlas_additive"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="3.243513E+08" y="2.638168E+08" z="3.17702E+08"/>
+							<center x="-1.532083E+07" y="8.180663E+07" z="1.035924E+07"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection011" tags="part  ">
+				<offset>
+					<position x="-4.487614E+07" y="7527758" z="-7208938"/>
+				</offset>
+				<parts>
+					<part name="nebula039">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="p1.staratlas_additive"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="3.999643E+08" y="3.327633E+08" z="4.350498E+08"/>
+							<center x="6224391" y="-2.433491E+07" z="-873921.9"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection012" tags="part  ">
+				<offset>
+					<position x="-2776328" y="-2041203" z="3927625"/>
+				</offset>
+				<parts>
+					<part name="bigstar018">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="p1.staratlas_additive"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="3.120093E+08" y="2.810402E+08" z="3.483486E+08"/>
+							<center x="-2067328" y="-3051422" z="5325094"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+		</connections>
+	</component>
+
+</components>
+</replace>
+</diff>

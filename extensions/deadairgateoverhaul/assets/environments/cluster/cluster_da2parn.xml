@@ -1,0 +1,160 @@
+<?xml version="1.0"?>
+<diff xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+<replace sel="//components">
+<components>
+
+	<component name="Cluster_DA2PARN" class="celestialbody">
+		<source geometry="assets\environments\cluster\Cluster_27_data"/>
+		<layers>
+			<layer>
+				<waypoints/>
+				<lights>
+					<ambient name="XU Ambient01" r="0" g="2" b="6" range="1E+11" intensity="1">
+						<lightanimations/>
+						<offset/>
+					</ambient>
+					<omni name="XU Omni03" shadow="0" r="255" g="249" b="199" range="100000" shadowrange="100000" lenseffect="sun_c_27" lighteffect="1" trigger="1" intensity="1.15">
+						<lightanimations/>
+						<offset>
+							<position x="3.421348E+08" y="2.409909E+07" z="1.409909E+08"/>
+						</offset>
+					</omni>
+				</lights>
+			</layer>
+		</layers>
+		<connections>
+			<connection name="container" tags="contents" value="0" optional="0"/>
+			<connection name="position" tags="position" value="1" optional="1"/>
+			<connection name="space" tags="celestialbody">
+				<offset/>
+			</connection>
+			<connection name="Connection01" tags="part  ">
+				<offset>
+					<position x="1.226121E+07" y="0" z="8100438"/>
+					<quaternion qx="-0" qy="-6.975656E-02" qz="-0" qw="-0.9975641"/>
+				</offset>
+				<parts>
+					<part name="Background">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="p1.backgroundstars"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="6.166138E+08" y="6.166138E+08" z="6.166138E+08"/>
+							<center x="138.6719" y="31.25" z="-0.9765625"/>
+						</size>
+						<pivot>
+							<offset>
+								<position x="0" y="-50000" z="0"/>
+							</offset>
+						</pivot>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection02" tags="part  ">
+				<offset>
+					<position x="-9.409803E+07" y="2.689025E+07" z="2.402009E+07"/>
+				</offset>
+				<parts>
+					<part name="nebula195">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="p1.staratlas_additive"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="4.376414E+08" y="2.976992E+08" z="4.1377E+08"/>
+							<center x="1.773394E+08" y="-3.104049E+07" z="-1.085673E+07"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection03" tags="part  ">
+				<offset>
+					<position x="4.222619E+07" y="-1.204972E+07" z="-1.050073E+07"/>
+				</offset>
+				<parts>
+					<part name="bigstar01">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="p1.staratlas_additive"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="3.871519E+08" y="3.156153E+08" z="3.640027E+08"/>
+							<center x="2.580706E+07" y="1.497328E+07" z="2.82237E+07"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection04" tags="part  ">
+				<offset>
+					<position x="2.968955E+07" y="-84170.9" z="-1.914872E+07"/>
+				</offset>
+				<parts>
+					<part name="mediumstar299">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="p1.staratlas_additive"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="3.366345E+08" y="3.200862E+08" z="3.367242E+08"/>
+							<center x="-1.126992E+07" y="-207844.7" z="-5909469"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection05" tags="part  ">
+				<offset>
+					<position x="8.738262E+07" y="-1.386513E+07" z="-2.226117E+07"/>
+				</offset>
+				<parts>
+					<part name="smallstar34">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="p1.staratlas_additive"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="3.76671E+08" y="3.177692E+08" z="3.448986E+08"/>
+							<center x="-3.197014E+07" y="1.735624E+07" z="1533342"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection06" tags="part  ">
+				<offset/>
+				<parts>
+					<part name="part_c27_bg">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="p1.p1_env_bg_vertexcolor"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="6.590739E+08" y="6.614848E+08" z="6.590739E+08"/>
+							<center x="62.5" y="0" z="-62.5"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+		</connections>
+	</component>
+
+</components>
+</replace>
+</diff>

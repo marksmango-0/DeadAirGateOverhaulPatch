@@ -1,0 +1,1733 @@
+<?xml version="1.0" encoding="utf-8"?>
+<diff xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+<!-- BEGIN DA1 -->
+<replace sel="//macro[@name='Cluster_DA1_macro']">
+	<macro name="Cluster_DA1_macro" class="cluster">
+		<component ref="standardcluster" />
+		<connections>
+			<connection name="Cluster_DA1_Sector001_connection" ref="sectors">
+				<macro ref="Cluster_DA1_Sector001_macro" connection="cluster" />
+			</connection>
+			<connection name="CDA1S01_Region001_connection" ref="regions">
+				<macro name="CDA1S01_Region001_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_Cluster_DA1_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA1S01_Region002_connection" ref="regions">
+				<macro name="CDA1S01_Region002_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="audioregion_Cluster_DA1_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection ref="content">
+				<macro>
+					<component connection="space" ref="Cluster_DA1" />
+				</macro>
+			</connection>
+			<connection name="CDA1S01_Region003_connection" ref="regions">
+				<offset>
+					<position x="-50000" y="500" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA1S01_Region003_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_cluster_06_sector_001" />
+					</properties>
+				</macro>
+			</connection>	
+		</connections>
+	</macro>
+</replace>
+
+<replace sel="//macro[@name='Cluster_DA1E_macro']">
+	<macro name="Cluster_DA1E_macro" class="cluster">
+		<component ref="standardcluster" />
+		<connections>
+			<connection name="Cluster_DA1E_Sector001_connection" ref="sectors">
+				<macro ref="Cluster_DA1E_Sector001_macro" connection="cluster" />
+			</connection>
+			<connection name="CDA1ES01_Region001_connection" ref="regions">
+				<macro name="CDA1ES01_Region001_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_Cluster_DA1E_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA1ES01_Region002_connection" ref="regions">
+				<macro name="CDA1ES01_Region002_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="audioregion_Cluster_DA1E_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection ref="content">
+				<macro>
+					<component connection="space" ref="Cluster_DA1E" />
+				</macro>
+			</connection>
+		</connections>
+	</macro>
+</replace>
+    
+<replace sel="//macro[@name='Cluster_DA1W_macro']">
+	<macro name="Cluster_DA1W_macro" class="cluster">
+		<component ref="standardcluster" />
+		<connections>
+			<connection name="Cluster_DA1W_Sector001_connection" ref="sectors">
+				<macro ref="Cluster_DA1W_Sector001_macro" connection="cluster" />
+			</connection>
+			<connection name="CDA1WS01_Region001_connection" ref="regions">
+				<macro name="CDA1WS01_Region001_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_Cluster_DA1W_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA1WS01_Region002_connection" ref="regions">
+				<macro name="CDA1WS01_Region002_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="audioregion_Cluster_DA1W_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection ref="content">
+				<macro>
+					<component connection="space" ref="Cluster_DA1W" />
+				</macro>
+			</connection>
+			<connection name="CDA1WS01_Region003_connection" ref="regions">
+				<offset>
+					<position x="-30000" y="500" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA1WS01_Region003_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_cluster_22_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+		</connections>
+	</macro>
+</replace>
+
+<replace sel="//macro[@name='Cluster_DA1ARG_macro']">
+	<macro name="Cluster_DA1ARG_macro" class="cluster">
+		<component ref="standardcluster" />
+		<connections>
+			<connection name="Cluster_DA1ARG_Sector001_connection" ref="sectors">
+				<macro ref="Cluster_DA1ARG_Sector001_macro" connection="cluster" />
+			</connection>
+			<connection name="CDA1ARGS01_Region001_connection" ref="regions">
+				<macro name="CDA1ARGS01_Region001_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_Cluster_DA1ARG_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA1ARGS01_Region002_connection" ref="regions">
+				<macro name="CDA1ARGS01_Region002_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="audioregion_Cluster_DA1ARG_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection ref="content">
+				<macro>
+					<component connection="space" ref="Cluster_DA1ARG" />
+				</macro>
+			</connection>
+			<connection name="CDA1ARGS01_Region003_connection" ref="regions">
+				<offset>
+					<position x="-11000" y="200" z="-8000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA1ARGS01_Region003_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="p1_wreckfield_station_10km" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA1ARGS01_Region009_connection" ref="regions">
+				<offset>
+					<position x="16500" y="500" z="4200" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA1ARGS01_Region009_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_cluster_06_sector_001" />
+					</properties>
+				</macro>
+			</connection>	
+		</connections>
+	</macro>
+</replace>
+
+<replace sel="//macro[@name='Cluster_DA1HOP_macro']">
+	<macro name="Cluster_DA1HOP_macro" class="cluster">
+		<component ref="standardcluster" />
+		<connections>
+			<connection name="Cluster_DA1HOP_Sector001_connection" ref="sectors">
+				<macro ref="Cluster_DA1HOP_Sector001_macro" connection="cluster" />
+			</connection>
+			<connection name="CDA1HOPS01_Region001_connection" ref="regions">
+				<macro name="CDA1HOPS01_Region001_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_Cluster_DA1HOP_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA1HOPS01_Region002_connection" ref="regions">
+				<macro name="CDA1HOPS01_Region002_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="audioregion_Cluster_DA1HOP_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection ref="content">
+				<macro>
+					<component connection="space" ref="Cluster_DA1HOP" />
+				</macro>
+			</connection>
+			<connection name="CDA1HOPS01_Region008_connection" ref="regions">
+				<offset>
+					<position x="0" y="5000" z="20000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA1HOPS01_Region008_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_cluster_17_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+		</connections>
+	</macro>
+</replace>
+
+<replace sel="//macro[@name='Cluster_DA1PAR_macro']">
+	<macro name="Cluster_DA1PAR_macro" class="cluster">
+		<component ref="standardcluster" />
+		<connections>
+			<connection name="Cluster_DA1PAR_Sector001_connection" ref="sectors">
+				<macro ref="Cluster_DA1PAR_Sector001_macro" connection="cluster" />
+			</connection>
+			<connection name="CDA1PARS01_Region001_connection" ref="regions">
+				<macro name="CDA1PARS01_Region001_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_Cluster_DA1PAR_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA1PARS01_Region002_connection" ref="regions">
+				<macro name="CDA1PARS01_Region002_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="audioregion_Cluster_DA1PAR_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection ref="content">
+				<macro>
+					<component connection="space" ref="Cluster_DA1PAR" />
+				</macro>
+			</connection>
+			<connection name="CDA1PARS01_Region008_connection" ref="regions">
+				<offset>
+					<position x="0" y="5000" z="50000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA1PARS01_Region008_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_cluster_15_sector_002" />
+					</properties>
+				</macro>
+			</connection>
+		</connections>
+	</macro>
+</replace>
+	
+<replace sel="//macro[@name='Cluster_DA1TEL_macro']">
+	<macro name="Cluster_DA1TEL_macro" class="cluster">
+		<component ref="standardcluster" />
+		<connections>
+			<connection name="Cluster_DA1TEL_Sector001_connection" ref="sectors">
+				<macro ref="Cluster_DA1TEL_Sector001_macro" connection="cluster" />
+			</connection>
+			<connection name="CDA1TELS01_Region001_connection" ref="regions">
+				<macro name="CDA1TELS01_Region001_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_Cluster_DA1TEL_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA1TELS01_Region002_connection" ref="regions">
+				<macro name="CDA1TELS01_Region002_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="audioregion_Cluster_DA1TEL_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection ref="content">
+				<macro>
+					<component connection="space" ref="Cluster_DA1TEL" />
+				</macro>
+			</connection>
+			<connection name="CDA1TELS01_Region011_connection" ref="regions">
+				<offset>
+					<position x="1" y="1" z="1" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA1TELS01_Region011_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_cluster_06_sector_002" />
+					</properties>
+				</macro>
+			</connection>
+		</connections>
+	</macro>
+</replace>
+<!-- END DA1 -->
+<!-- BEGIN DA2 NEUTRAL -->
+<replace sel="//macro[@name='Cluster_DA2_macro']">
+	<macro name="Cluster_DA2_macro" class="cluster">
+		<component ref="standardcluster" />
+		<connections>
+			<connection name="Cluster_DA2_Sector001_connection" ref="sectors">
+				<macro ref="Cluster_DA2_Sector001_macro" connection="cluster" />
+			</connection>
+			<connection name="CDA2S01_Region001_connection" ref="regions">
+				<macro name="CDA2S01_Region001_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_Cluster_DA2_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2S01_Region002_connection" ref="regions">
+				<macro name="CDA2S01_Region002_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="audioregion_Cluster_DA2_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection ref="content">
+				<macro>
+					<component connection="space" ref="Cluster_DA2" />
+				</macro>
+			</connection>
+			<connection name="CDA2S01_Region011_connection" ref="regions">
+				<offset>
+					<position x="1" y="1" z="1" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2S01_Region011_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_cluster_09_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+		</connections>
+	</macro>
+</replace>
+
+<replace sel="//macro[@name='Cluster_DA2N_macro']">
+	<macro name="Cluster_DA2N_macro" class="cluster">
+		<component ref="standardcluster" />
+		<connections>
+			<connection name="Cluster_DA2N_Sector001_connection" ref="sectors">
+				<macro ref="Cluster_DA2N_Sector001_macro" connection="cluster" />
+			</connection>
+			<connection name="CDA2NS01_Region001_connection" ref="regions">
+				<macro name="CDA2NS01_Region001_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_Cluster_DA2N_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2NS01_Region002_connection" ref="regions">
+				<macro name="CDA2NS01_Region002_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="audioregion_Cluster_DA2N_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection ref="content">
+				<macro>
+					<component connection="space" ref="Cluster_DA2N" />
+				</macro>
+			</connection>
+			<connection name="CDA2NS01_Region011_connection" ref="regions">
+				<offset>
+					<position x="1" y="1" z="1" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2NS01_Region011_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_cluster_23_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+		</connections>
+	</macro>
+</replace>
+
+<replace sel="//macro[@name='Cluster_DA2E_macro']">
+	<macro name="Cluster_DA2E_macro" class="cluster">
+		<component ref="standardcluster" />
+		<connections>
+			<connection name="Cluster_DA2E_Sector001_connection" ref="sectors">
+				<macro ref="Cluster_DA2E_Sector001_macro" connection="cluster" />
+			</connection>
+			<connection name="CDA2ES01_Region001_connection" ref="regions">
+				<macro name="CDA2ES01_Region001_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_Cluster_DA2E_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2ES01_Region002_connection" ref="regions">
+				<macro name="CDA2ES01_Region002_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="audioregion_Cluster_DA2E_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection ref="content">
+				<macro>
+					<component connection="space" ref="Cluster_DA2E" />
+				</macro>
+			</connection>		
+			<connection name="CDA2ES01_Region010_connection" ref="regions">
+				<offset>
+					<position x="50000" y="-5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2ES01_Region010_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_cluster_47_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+		</connections>
+	</macro>
+</replace>
+
+<replace sel="//macro[@name='Cluster_DA2S_macro']">
+	<macro name="Cluster_DA2S_macro" class="cluster">
+		<component ref="standardcluster" />
+		<connections>
+			<connection name="Cluster_DA2S_Sector001_connection" ref="sectors">
+				<macro ref="Cluster_DA2S_Sector001_macro" connection="cluster" />
+			</connection>
+			<connection name="CDA2SS01_Region001_connection" ref="regions">
+				<macro name="CDA2SS01_Region001_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_Cluster_DA2S_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2SS01_Region002_connection" ref="regions">
+				<macro name="CDA2SS01_Region002_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="audioregion_Cluster_DA2S_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection ref="content">
+				<macro>
+					<component connection="space" ref="Cluster_DA2S" />
+				</macro>
+			</connection>
+			<connection name="CDA2SS01_Region011_connection" ref="regions">
+				<offset>
+					<position x="1" y="1" z="1" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2SS01_Region011_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_cluster_26_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+		</connections>
+	</macro>
+</replace>
+
+<replace sel="//macro[@name='Cluster_DA2W_macro']">
+	<macro name="Cluster_DA2W_macro" class="cluster">
+		<component ref="standardcluster" />
+		<connections>
+			<connection name="Cluster_DA2W_Sector001_connection" ref="sectors">
+				<macro ref="Cluster_DA2W_Sector001_macro" connection="cluster" />
+			</connection>
+			<connection name="CDA2WS01_Region001_connection" ref="regions">
+				<macro name="CDA2WS01_Region001_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_Cluster_DA2W_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2WS01_Region002_connection" ref="regions">
+				<macro name="CDA2WS01_Region002_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="audioregion_Cluster_DA2W_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection ref="content">
+				<macro>
+					<component connection="space" ref="Cluster_DA2W" />
+				</macro>
+			</connection>
+			<connection name="CDA2WS01_Region003_connection" ref="regions">
+				<offset>
+					<position x="-50000" y="5000" z="10000" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2WS01_Region003_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_cluster_41_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+		</connections>
+	</macro>
+</replace>
+<!-- END DA2 NEUTRAL -->
+<!-- BEGIN DA2 ARG -->
+
+<replace sel="//macro[@name='Cluster_DA2ARGNE_macro']">
+	<macro name="Cluster_DA2ARGNE_macro" class="cluster">
+		<component ref="standardcluster" />
+		<connections>
+			<connection name="Cluster_DA2ARGNE_Sector001_connection" ref="sectors">
+				<macro ref="Cluster_DA2ARGNE_Sector001_macro" connection="cluster" />
+			</connection>
+			<connection name="CDA2ARGNES01_Region001_connection" ref="regions">
+				<macro name="CDA2ARGNES01_Region001_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_Cluster_DA2ARGNE_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2ARGNES01_Region002_connection" ref="regions">
+				<macro name="CDA2ARGNES01_Region002_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="audioregion_Cluster_DA2ARGNE_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection ref="content">
+				<macro>
+					<component connection="space" ref="Cluster_DA2ARGNE" />
+				</macro>
+			</connection>
+			<connection name="CDA2ARGNES01_Region011_connection" ref="regions">
+				<offset>
+					<position x="1" y="1" z="1" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2ARGNES01_Region011_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_cluster_33_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+		</connections>
+	</macro>
+</replace>
+
+<replace sel="//macro[@name='Cluster_DA2ARGE_macro']">
+	<macro name="Cluster_DA2ARGE_macro" class="cluster">
+		<component ref="standardcluster" />
+		<connections>
+			<connection name="Cluster_DA2ARGE_Sector001_connection" ref="sectors">
+				<macro ref="Cluster_DA2ARGE_Sector001_macro" connection="cluster" />
+			</connection>
+			<connection name="CDA2ARGES01_Region001_connection" ref="regions">
+				<macro name="CDA2ARGES01_Region001_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_Cluster_DA2ARGE_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2ARGES01_Region002_connection" ref="regions">
+				<macro name="CDA2ARGES01_Region002_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="audioregion_Cluster_DA2ARGE_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection ref="content">
+				<macro>
+					<component connection="space" ref="Cluster_DA2ARGE" />
+				</macro>
+			</connection>
+			<connection name="CDA2ARGES01_Region011_connection" ref="regions">
+				<offset>
+					<position x="1" y="1" z="1" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2ARGES01_Region011_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_cluster_40_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+		</connections>
+	</macro>
+</replace>
+
+<replace sel="//macro[@name='Cluster_DA2ARGSE_macro']">
+	<macro name="Cluster_DA2ARGSE_macro" class="cluster">
+		<component ref="standardcluster" />
+		<connections>
+			<connection name="Cluster_DA2ARGSE_Sector001_connection" ref="sectors">
+				<macro ref="Cluster_DA2ARGSE_Sector001_macro" connection="cluster" />
+			</connection>
+			<connection name="CDA2ARGSES01_Region001_connection" ref="regions">
+				<macro name="CDA2ARGSES01_Region001_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_Cluster_DA2ARGSE_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2ARGSES01_Region002_connection" ref="regions">
+				<macro name="CDA2ARGSES01_Region002_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="audioregion_Cluster_DA2ARGSE_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection ref="content">
+				<macro>
+					<component connection="space" ref="Cluster_DA2ARGSE" />
+				</macro>
+			</connection>
+			<connection name="CDA2ARGSES01_Region011_connection" ref="regions">
+				<offset>
+					<position x="1" y="1" z="1" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2ARGSES01_Region011_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_cluster_21_sector_002" />
+					</properties>
+				</macro>
+			</connection>
+		</connections>
+	</macro>
+</replace>
+	
+<replace sel="//macro[@name='Cluster_DA2ARGS_macro']">
+	<macro name="Cluster_DA2ARGS_macro" class="cluster">
+		<component ref="standardcluster" />
+		<connections>
+			<connection name="Cluster_DA2ARGS_Sector001_connection" ref="sectors">
+				<macro ref="Cluster_DA2ARGS_Sector001_macro" connection="cluster" />
+			</connection>
+			<connection name="CDA2ARGSS01_Region001_connection" ref="regions">
+				<macro name="CDA2ARGSS01_Region001_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_Cluster_DA2ARGS_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2ARGSS01_Region002_connection" ref="regions">
+				<macro name="CDA2ARGSS01_Region002_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="audioregion_Cluster_DA2ARGS_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection ref="content">
+				<macro>
+					<component connection="space" ref="Cluster_DA2ARGS" />
+				</macro>
+			</connection>
+			
+			<connection name="CDA2ARGSS01_Region011_connection" ref="regions">
+				<offset>
+					<position x="1" y="1" z="1" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2ARGSS01_Region011_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_cluster_18_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+		</connections>
+	</macro>
+</replace>
+	
+<replace sel="//macro[@name='Cluster_DA2ARGNW_macro']">
+	<macro name="Cluster_DA2ARGNW_macro" class="cluster">
+		<component ref="standardcluster" />
+		<connections>
+			<connection name="Cluster_DA2ARGNW_Sector001_connection" ref="sectors">
+				<macro ref="Cluster_DA2ARGNW_Sector001_macro" connection="cluster" />
+			</connection>
+			<connection name="CDA2ARGNWS01_Region001_connection" ref="regions">
+				<macro name="CDA2ARGNWS01_Region001_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_Cluster_DA2ARGNW_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2ARGNWS01_Region002_connection" ref="regions">
+				<macro name="CDA2ARGNWS01_Region002_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="audioregion_Cluster_DA2ARGNW_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection ref="content">
+				<macro>
+					<component connection="space" ref="Cluster_DA2ARGNW" />
+				</macro>
+			</connection>
+			
+			<connection name="CDA2ARGNWS01_Region011_connection" ref="regions">
+				<offset>
+					<position x="1" y="1" z="1" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2ARGNWS01_Region011_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_cluster_13_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+		</connections>
+	</macro>
+</replace>
+	
+<replace sel="//macro[@name='Cluster_DA2ARGC_macro']">
+	<macro name="Cluster_DA2ARGC_macro" class="cluster">
+		<component ref="standardcluster" />
+		<connections>
+			<connection name="Cluster_DA2ARGC_Sector001_connection" ref="sectors">
+				<macro ref="Cluster_DA2ARGC_Sector001_macro" connection="cluster" />
+			</connection>
+			<connection name="CDA2ARGCS01_Region001_connection" ref="regions">
+				<macro name="CDA2ARGCS01_Region001_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_Cluster_DA2ARGC_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2ARGCS01_Region002_connection" ref="regions">
+				<macro name="CDA2ARGCS01_Region002_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="audioregion_Cluster_DA2ARGC_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection ref="content">
+				<macro>
+					<component connection="space" ref="Cluster_DA2ARGC" />
+				</macro>
+			</connection>
+			<connection name="CDA2ARGCS01_Region011_connection" ref="regions">
+				<offset>
+					<position x="1" y="1" z="1" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2ARGCS01_Region011_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_cluster_15_sector_002" />
+					</properties>
+				</macro>
+			</connection>
+		</connections>
+	</macro>
+</replace>
+<!-- END DA2 ARG -->
+<!-- BEGIN DA2 HOP -->
+<replace sel="//macro[@name='Cluster_DA2HOPNE_macro']">
+	<macro name="Cluster_DA2HOPNE_macro" class="cluster">
+		<component ref="standardcluster" />
+		<connections>
+			<connection name="Cluster_DA2HOPNE_Sector001_connection" ref="sectors">
+				<macro ref="Cluster_DA2HOPNE_Sector001_macro" connection="cluster" />
+			</connection>
+			<connection name="CDA2HOPNES01_Region001_connection" ref="regions">
+				<macro name="CDA2HOPNES01_Region001_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_Cluster_DA2HOPNE_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2HOPNES01_Region002_connection" ref="regions">
+				<macro name="CDA2HOPNES01_Region002_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="audioregion_Cluster_DA2HOPNE_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection ref="content">
+				<macro>
+					<component connection="space" ref="Cluster_DA2HOPNE" />
+				</macro>
+			</connection>
+			<connection name="CDA2HOPNES01_Region011_connection" ref="regions">
+				<offset>
+					<position x="1" y="1" z="1" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2HOPNES01_Region011_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_cluster_06_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+		</connections>
+	</macro>
+</replace>
+
+<replace sel="//macro[@name='Cluster_DA2HOPE_macro']">
+	<macro name="Cluster_DA2HOPE_macro" class="cluster">
+		<component ref="standardcluster" />
+		<connections>
+			<connection name="Cluster_DA2HOPE_Sector001_connection" ref="sectors">
+				<macro ref="Cluster_DA2HOPE_Sector001_macro" connection="cluster" />
+			</connection>
+			<connection name="CDA2HOPES01_Region001_connection" ref="regions">
+				<macro name="CDA2HOPES01_Region001_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_Cluster_DA2HOPE_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2HOPES01_Region002_connection" ref="regions">
+				<macro name="CDA2HOPES01_Region002_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="audioregion_Cluster_DA2HOPE_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection ref="content">
+				<macro>
+					<component connection="space" ref="Cluster_DA2HOPE" />
+				</macro>
+			</connection>
+			<connection name="CDA2HOPES01_Region011_connection" ref="regions">
+				<offset>
+					<position x="1" y="1" z="1" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2HOPES01_Region011_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_cluster_14_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+		</connections>
+	</macro>
+</replace>
+	
+<replace sel="//macro[@name='Cluster_DA2HOPSE_macro']">
+	<macro name="Cluster_DA2HOPSE_macro" class="cluster">
+		<component ref="standardcluster" />
+		<connections>
+			<connection name="Cluster_DA2HOPSE_Sector001_connection" ref="sectors">
+				<macro ref="Cluster_DA2HOPSE_Sector001_macro" connection="cluster" />
+			</connection>
+			<connection name="CDA2HOPSES01_Region001_connection" ref="regions">
+				<macro name="CDA2HOPSES01_Region001_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_Cluster_DA2HOPSE_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2HOPSES01_Region002_connection" ref="regions">
+				<macro name="CDA2HOPSES01_Region002_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="audioregion_Cluster_DA2HOPSE_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection ref="content">
+				<macro>
+					<component connection="space" ref="Cluster_DA2HOPSE" />
+				</macro>
+			</connection>
+			<connection name="CDA2HOPSES01_Region011_connection" ref="regions">
+				<offset>
+					<position x="1" y="1" z="1" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2HOPSES01_Region011_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_cluster_03_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+		</connections>
+	</macro>
+</replace>
+	
+<replace sel="//macro[@name='Cluster_DA2HOPSW_macro']">
+	<macro name="Cluster_DA2HOPSW_macro" class="cluster">
+		<component ref="standardcluster" />
+		<connections>
+			<connection name="Cluster_DA2HOPSW_Sector001_connection" ref="sectors">
+				<macro ref="Cluster_DA2HOPSW_Sector001_macro" connection="cluster" />
+			</connection>
+			<connection name="CDA2HOPSWS01_Region001_connection" ref="regions">
+				<macro name="CDA2HOPSWS01_Region001_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_Cluster_DA2HOPSW_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2HOPSWS01_Region002_connection" ref="regions">
+				<macro name="CDA2HOPSWS01_Region002_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="audioregion_Cluster_DA2HOPSW_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection ref="content">
+				<macro>
+					<component connection="space" ref="Cluster_DA2HOPSW" />
+				</macro>
+			</connection>
+			<connection name="CDA2HOPSWS01_Region011_connection" ref="regions">
+				<offset>
+					<position x="1" y="1" z="1" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2HOPSWS01_Region011_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_cluster_06_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+		</connections>
+	</macro>
+</replace>
+	
+<replace sel="//macro[@name='Cluster_DA2HOPN_macro']">
+	<macro name="Cluster_DA2HOPN_macro" class="cluster">
+		<component ref="standardcluster" />
+		<connections>
+			<connection name="Cluster_DA2HOPN_Sector001_connection" ref="sectors">
+				<macro ref="Cluster_DA2HOPN_Sector001_macro" connection="cluster" />
+			</connection>
+			<connection name="CDA2HOPNS01_Region001_connection" ref="regions">
+				<macro name="CDA2HOPNS01_Region001_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_Cluster_DA2HOPN_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2HOPNS01_Region002_connection" ref="regions">
+				<macro name="CDA2HOPNS01_Region002_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="audioregion_Cluster_DA2HOPN_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection ref="content">
+				<macro>
+					<component connection="space" ref="Cluster_DA2HOPN" />
+				</macro>
+			</connection>
+			<connection name="CDA2HOPNS01_Region011_connection" ref="regions">
+				<offset>
+					<position x="1" y="1" z="1" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2HOPNS01_Region011_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_cluster_24_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+		</connections>
+	</macro>
+</replace>
+
+<replace sel="//macro[@name='Cluster_DA2HOPC_macro']">
+	<macro name="Cluster_DA2HOPC_macro" class="cluster">
+		<component ref="standardcluster" />
+		<connections>
+			<connection name="Cluster_DA2HOPC_Sector001_connection" ref="sectors">
+				<macro ref="Cluster_DA2HOPC_Sector001_macro" connection="cluster" />
+			</connection>
+			<connection name="CDA2HOPCS01_Region001_connection" ref="regions">
+				<macro name="CDA2HOPCS01_Region001_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_Cluster_DA2HOPC_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2HOPCS01_Region002_connection" ref="regions">
+				<macro name="CDA2HOPCS01_Region002_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="audioregion_Cluster_DA2HOPC_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection ref="content">
+				<macro>
+					<component connection="space" ref="Cluster_DA2HOPC" />
+				</macro>
+			</connection>
+			<connection name="CDA2HOPCS01_Region011_connection" ref="regions">
+				<offset>
+					<position x="1" y="1" z="1" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2HOPCS01_Region011_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_cluster_47_sector_001b" />
+					</properties>
+				</macro>
+			</connection>
+		</connections>
+	</macro>
+</replace>
+<!-- END DA2 HOP -->
+<!-- BEGIN DA2 PAR -->
+
+<replace sel="//macro[@name='Cluster_DA2PARNW_macro']">
+	<macro name="Cluster_DA2PARNW_macro" class="cluster">
+		<component ref="standardcluster" />
+		<connections>
+			<connection name="Cluster_DA2PARNW_Sector001_connection" ref="sectors">
+				<macro ref="Cluster_DA2PARNW_Sector001_macro" connection="cluster" />
+			</connection>
+			<connection name="CDA2PARNWS01_Region001_connection" ref="regions">
+				<macro name="CDA2PARNWS01_Region001_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_Cluster_DA2PARNW_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2PARNWS01_Region002_connection" ref="regions">
+				<macro name="CDA2PARNWS01_Region002_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="audioregion_Cluster_DA2PARNW_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection ref="content">
+				<macro>
+					<component connection="space" ref="Cluster_DA2PARNW" />
+				</macro>
+			</connection>
+			<connection name="CDA2PARNWS01_Region011_connection" ref="regions">
+				<offset>
+					<position x="1" y="1" z="1" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2PARNWS01_Region011_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_cluster_01_sector_003_c" />
+					</properties>
+				</macro>
+			</connection>
+		</connections>
+	</macro>
+</replace>
+
+<replace sel="//macro[@name='Cluster_DA2PARW_macro']">
+	<macro name="Cluster_DA2PARW_macro" class="cluster">
+		<component ref="standardcluster" />
+		<connections>
+			<connection name="Cluster_DA2PARW_Sector001_connection" ref="sectors">
+				<macro ref="Cluster_DA2PARW_Sector001_macro" connection="cluster" />
+			</connection>
+			<connection name="CDA2PARWS01_Region001_connection" ref="regions">
+				<macro name="CDA2PARWS01_Region001_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_Cluster_DA2PARW_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2PARWS01_Region002_connection" ref="regions">
+				<macro name="CDA2PARWS01_Region002_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="audioregion_Cluster_DA2PARW_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection ref="content">
+				<macro>
+					<component connection="space" ref="Cluster_DA2PARW" />
+				</macro>
+			</connection>
+			<connection name="CDA2PARWS01_Region011_connection" ref="regions">
+				<offset>
+					<position x="1" y="1" z="1" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2PARWS01_Region011_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_cluster_01_sector_002_f" />
+					</properties>
+				</macro>
+			</connection>
+		</connections>
+	</macro>
+</replace>
+	
+<replace sel="//macro[@name='Cluster_DA2PARSW_macro']">
+	<macro name="Cluster_DA2PARSW_macro" class="cluster">
+		<component ref="standardcluster" />
+		<connections>
+			<connection name="Cluster_DA2PARSW_Sector001_connection" ref="sectors">
+				<macro ref="Cluster_DA2PARSW_Sector001_macro" connection="cluster" />
+			</connection>
+			<connection name="CDA2PARSWS01_Region001_connection" ref="regions">
+				<macro name="CDA2PARSWS01_Region001_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_Cluster_DA2PARSW_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2PARSWS01_Region002_connection" ref="regions">
+				<macro name="CDA2PARSWS01_Region002_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="audioregion_Cluster_DA2PARSW_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection ref="content">
+				<macro>
+					<component connection="space" ref="Cluster_DA2PARSW" />
+				</macro>
+			</connection>
+			<connection name="CDA2PARSWS01_Region011_connection" ref="regions">
+				<offset>
+					<position x="1" y="1" z="1" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2PARSWS01_Region011_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_cluster_32_sector_002" />
+					</properties>
+				</macro>
+			</connection>
+		</connections>
+	</macro>
+</replace>
+	
+<replace sel="//macro[@name='Cluster_DA2PARSE_macro']">
+	<macro name="Cluster_DA2PARSE_macro" class="cluster">
+		<component ref="standardcluster" />
+		<connections>
+			<connection name="Cluster_DA2PARSE_Sector001_connection" ref="sectors">
+				<macro ref="Cluster_DA2PARSE_Sector001_macro" connection="cluster" />
+			</connection>
+			<connection name="CDA2PARSES01_Region001_connection" ref="regions">
+				<macro name="CDA2PARSES01_Region001_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_Cluster_DA2PARSE_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2PARSES01_Region002_connection" ref="regions">
+				<macro name="CDA2PARSES01_Region002_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="audioregion_Cluster_DA2PARSE_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection ref="content">
+				<macro>
+					<component connection="space" ref="Cluster_DA2PARSE" />
+				</macro>
+			</connection>
+			<connection name="CDA2PARSES01_Region011_connection" ref="regions">
+				<offset>
+					<position x="1" y="1" z="1" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2PARSES01_Region011_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_cluster_33_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+		</connections>
+	</macro>
+</replace>
+	
+<replace sel="//macro[@name='Cluster_DA2PARN_macro']">
+	<macro name="Cluster_DA2PARN_macro" class="cluster">
+		<component ref="standardcluster" />
+		<connections>
+			<connection name="Cluster_DA2PARN_Sector001_connection" ref="sectors">
+				<macro ref="Cluster_DA2PARN_Sector001_macro" connection="cluster" />
+			</connection>
+			<connection name="CDA2PARNS01_Region001_connection" ref="regions">
+				<macro name="CDA2PARNS01_Region001_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_Cluster_DA2PARN_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2PARNS01_Region002_connection" ref="regions">
+				<macro name="CDA2PARNS01_Region002_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="audioregion_Cluster_DA2PARN_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection ref="content">
+				<macro>
+					<component connection="space" ref="Cluster_DA2PARN" />
+				</macro>
+			</connection>
+			<connection name="CDA2PARNS01_Region011_connection" ref="regions">
+				<offset>
+					<position x="1" y="1" z="1" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2PARNS01_Region011_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_cluster_44_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+		</connections>
+	</macro>
+</replace>
+	
+<replace sel="//macro[@name='Cluster_DA2PARC_macro']">
+	<macro name="Cluster_DA2PARC_macro" class="cluster">
+		<component ref="standardcluster" />
+		<connections>
+			<connection name="Cluster_DA2PARC_Sector001_connection" ref="sectors">
+				<macro ref="Cluster_DA2PARC_Sector001_macro" connection="cluster" />
+			</connection>
+			<connection name="CDA2PARCS01_Region001_connection" ref="regions">
+				<macro name="CDA2PARCS01_Region001_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_Cluster_DA2PARC_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2PARCS01_Region002_connection" ref="regions">
+				<macro name="CDA2PARCS01_Region002_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="audioregion_Cluster_DA2PARC_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection ref="content">
+				<macro>
+					<component connection="space" ref="Cluster_DA2PARC" />
+				</macro>
+			</connection>
+			<connection name="CDA2PARCS01_Region011_connection" ref="regions">
+				<offset>
+					<position x="1" y="1" z="1" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2PARCS01_Region011_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_cluster_01_sector_002_h" />
+					</properties>
+				</macro>
+			</connection>
+		</connections>
+	</macro>
+</replace>
+<!-- END DA2 PAR -->
+<!-- BEGIN DA2 TEL -->
+<replace sel="//macro[@name='Cluster_DA2TELNW_macro']">
+	<macro name="Cluster_DA2TELNW_macro" class="cluster">
+		<component ref="standardcluster" />
+		<connections>
+			<connection name="Cluster_DA2TELNW_Sector001_connection" ref="sectors">
+				<macro ref="Cluster_DA2TELNW_Sector001_macro" connection="cluster" />
+			</connection>
+			<connection name="CDA2TELNWS01_Region001_connection" ref="regions">
+				<macro name="CDA2TELNWS01_Region001_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_Cluster_DA2TELNW_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2TELNWS01_Region002_connection" ref="regions">
+				<macro name="CDA2TELNWS01_Region002_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="audioregion_Cluster_DA2TELNW_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection ref="content">
+				<macro>
+					<component connection="space" ref="Cluster_DA2TELNW" />
+				</macro>
+			</connection>
+			<connection name="CDA2TELNWS01_Region011_connection" ref="regions">
+				<offset>
+					<position x="1" y="1" z="1" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2TELNWS01_Region011_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_cluster_29_sector_002" />
+					</properties>
+				</macro>
+			</connection>
+		</connections>
+	</macro>
+</replace>
+	
+<replace sel="//macro[@name='Cluster_DA2TELW_macro']">
+	<macro name="Cluster_DA2TELW_macro" class="cluster">
+		<component ref="standardcluster" />
+		<connections>
+			<connection name="Cluster_DA2TELW_Sector001_connection" ref="sectors">
+				<macro ref="Cluster_DA2TELW_Sector001_macro" connection="cluster" />
+			</connection>
+			<connection name="CDA2TELWS01_Region001_connection" ref="regions">
+				<macro name="CDA2TELWS01_Region001_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_Cluster_DA2TELW_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2TELWS01_Region002_connection" ref="regions">
+				<macro name="CDA2TELWS01_Region002_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="audioregion_Cluster_DA2TELW_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection ref="content">
+				<macro>
+					<component connection="space" ref="Cluster_DA2TELW" />
+				</macro>
+			</connection>
+			<connection name="CDA2TELWS01_Region011_connection" ref="regions">
+				<offset>
+					<position x="1" y="1" z="1" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2TELWS01_Region011_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_cluster_10_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+		</connections>
+	</macro>
+</replace>
+	
+<replace sel="//macro[@name='Cluster_DA2TELSW_macro']">
+	<macro name="Cluster_DA2TELSW_macro" class="cluster">
+		<component ref="standardcluster" />
+		<connections>
+			<connection name="Cluster_DA2TELSW_Sector001_connection" ref="sectors">
+				<macro ref="Cluster_DA2TELSW_Sector001_macro" connection="cluster" />
+			</connection>
+			<connection name="CDA2TELSWS01_Region001_connection" ref="regions">
+				<macro name="CDA2TELSWS01_Region001_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_Cluster_DA2TELSW_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2TELSWS01_Region002_connection" ref="regions">
+				<macro name="CDA2TELSWS01_Region002_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="audioregion_Cluster_DA2TELSW_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection ref="content">
+				<macro>
+					<component connection="space" ref="Cluster_DA2TELSW" />
+				</macro>
+			</connection>
+			<connection name="CDA2TELSWS01_Region011_connection" ref="regions">
+				<offset>
+					<position x="1" y="1" z="1" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2TELSWS01_Region011_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_cluster_15_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+		</connections>
+	</macro>
+</replace>
+	
+<replace sel="//macro[@name='Cluster_DA2TELS_macro']">
+	<macro name="Cluster_DA2TELS_macro" class="cluster">
+		<component ref="standardcluster" />
+		<connections>
+			<connection name="Cluster_DA2TELS_Sector001_connection" ref="sectors">
+				<macro ref="Cluster_DA2TELS_Sector001_macro" connection="cluster" />
+			</connection>
+			<connection name="CDA2TELSS01_Region001_connection" ref="regions">
+				<macro name="CDA2TELSS01_Region001_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_Cluster_DA2TELS_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2TELSS01_Region002_connection" ref="regions">
+				<macro name="CDA2TELSS01_Region002_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="audioregion_Cluster_DA2TELS_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection ref="content">
+				<macro>
+					<component connection="space" ref="Cluster_DA2TELS" />
+				</macro>
+			</connection>
+			<connection name="CDA2TELSS01_Region011_connection" ref="regions">
+				<offset>
+					<position x="1" y="2500" z="1" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2TELSS01_Region011_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_cluster_45_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+		</connections>
+	</macro>
+</replace>
+	
+<replace sel="//macro[@name='Cluster_DA2TELNE_macro']">
+	<macro name="Cluster_DA2TELNE_macro" class="cluster">
+		<component ref="standardcluster" />
+		<connections>
+			<connection name="Cluster_DA2TELNE_Sector001_connection" ref="sectors">
+				<macro ref="Cluster_DA2TELNE_Sector001_macro" connection="cluster" />
+			</connection>
+			<connection name="CDA2TELNES01_Region001_connection" ref="regions">
+				<macro name="CDA2TELNES01_Region001_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_Cluster_DA2TELNE_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2TELNES01_Region002_connection" ref="regions">
+				<macro name="CDA2TELNES01_Region002_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="audioregion_Cluster_DA2TELNE_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection ref="content">
+				<macro>
+					<component connection="space" ref="Cluster_DA2TELNE" />
+				</macro>
+			</connection>
+			<connection name="CDA2TELNES01_Region011_connection" ref="regions">
+				<offset>
+					<position x="1" y="1" z="1" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2TELNES01_Region011_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_cluster_32_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+		</connections>
+	</macro>
+</replace>
+	
+<replace sel="//macro[@name='Cluster_DA2TELC_macro']">
+	<macro name="Cluster_DA2TELC_macro" class="cluster">
+		<component ref="standardcluster" />
+		<connections>
+			<connection name="Cluster_DA2TELC_Sector001_connection" ref="sectors">
+				<macro ref="Cluster_DA2TELC_Sector001_macro" connection="cluster" />
+			</connection>
+			<connection name="CDA2TELCS01_Region001_connection" ref="regions">
+				<macro name="CDA2TELCS01_Region001_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_Cluster_DA2TELC_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2TELCS01_Region002_connection" ref="regions">
+				<macro name="CDA2TELCS01_Region002_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="audioregion_Cluster_DA2TELC_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection ref="content">
+				<macro>
+					<component connection="space" ref="Cluster_DA2TELC" />
+				</macro>
+			</connection>
+			<connection name="CDA2TELCS01_Region011_connection" ref="regions">
+				<offset>
+					<position x="1" y="1" z="1" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2TELCS01_Region011_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_cluster_16_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+		</connections>
+	</macro>
+</replace>
+<!-- END DA2 TEL -->
+<!-- BEGIN DA2 HOP CORE -->
+<replace sel="//macro[@name='Cluster_DA2HOP1_macro']">
+	<macro name="Cluster_DA2HOP1_macro" class="cluster">
+		<component ref="standardcluster" />
+		<connections>
+			<connection name="Cluster_DA2HOP1_Sector001_connection" ref="sectors">
+				<macro ref="Cluster_DA2HOP1_Sector001_macro" connection="cluster" />
+			</connection>
+			<connection name="CDA2HOP1S01_Region001_connection" ref="regions">
+				<macro name="CDA2HOP1S01_Region001_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_Cluster_DA2HOP1_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2HOP1S01_Region002_connection" ref="regions">
+				<macro name="CDA2HOP1S01_Region002_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="audioregion_Cluster_DA2HOP1_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection ref="content">
+				<macro>
+					<component connection="space" ref="Cluster_DA2HOP1" />
+				</macro>
+			</connection>
+			<connection name="CDA2HOP1S01_Region011_connection" ref="regions">
+				<offset>
+					<position x="1" y="1" z="1" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2HOP1S01_Region011_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_cluster_22_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+		</connections>
+	</macro>
+</replace>
+	
+<replace sel="//macro[@name='Cluster_DA2HOP2_macro']">
+	<macro name="Cluster_DA2HOP2_macro" class="cluster">
+		<component ref="standardcluster" />
+		<connections>
+			<connection name="Cluster_DA2HOP2_Sector001_connection" ref="sectors">
+				<macro ref="Cluster_DA2HOP2_Sector001_macro" connection="cluster" />
+			</connection>
+			<connection name="CDA2HOP2S01_Region001_connection" ref="regions">
+				<macro name="CDA2HOP2S01_Region001_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_Cluster_DA2HOP2_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2HOP2S01_Region002_connection" ref="regions">
+				<macro name="CDA2HOP2S01_Region002_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="audioregion_Cluster_DA2HOP2_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection ref="content">
+				<macro>
+					<component connection="space" ref="Cluster_DA2HOP2" />
+				</macro>
+			</connection>
+			<connection name="CDA2HOP2S01_Region011_connection" ref="regions">
+				<offset>
+					<position x="1" y="1" z="1" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2HOP2S01_Region011_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_cluster_01_sector_003_a" />
+					</properties>
+				</macro>
+			</connection>
+		</connections>
+	</macro>
+</replace>
+<!-- END DA2 HOP CORE -->
+<!-- BEGIN DA2 XEN CORE -->
+<replace sel="//macro[@name='Cluster_DA2XEN1_macro']">
+	<macro name="Cluster_DA2XEN1_macro" class="cluster">
+		<component ref="standardcluster" />
+		<connections>
+			<connection name="Cluster_DA2XEN1_Sector001_connection" ref="sectors">
+				<macro ref="Cluster_DA2XEN1_Sector001_macro" connection="cluster" />
+			</connection>
+			<connection name="CDA2XEN1S01_Region001_connection" ref="regions">
+				<macro name="CDA2XEN1S01_Region001_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_Cluster_DA2XEN1_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDA2XEN1S01_Region002_connection" ref="regions">
+				<macro name="CDA2XEN1S01_Region002_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="audioregion_Cluster_DA2XEN1_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection ref="content">
+				<macro>
+					<component connection="space" ref="Cluster_DA2XEN1" />
+				</macro>
+			</connection>
+			<connection name="CDA2XEN1S01_Region011_connection" ref="regions">
+				<offset>
+					<position x="1" y="1" z="1" />
+					<rotation yaw="0" pitch="0" roll="0"/>
+				</offset>
+				<macro name="CDA2XEN1S01_Region011_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_cluster_17_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+		</connections>
+	</macro>
+</replace>
+<!-- END DA2 XEN CORE -->
+</diff>
+
+
